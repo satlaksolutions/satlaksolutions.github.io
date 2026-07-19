@@ -1,137 +1,436 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Satlak Solutions</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f7fb;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        header {
-            background: #0a2540;
-            color: white;
-            padding: 50px;
-            text-align: center;
-        }
+<title>Satlak Solutions</title>
 
-        header h1 {
-            font-size: 50px;
-            margin: 0;
-        }
+<style>
 
-        header p {
-            font-size: 22px;
-        }
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
 
-        .section {
-            padding: 40px;
-            max-width: 1100px;
-            margin: auto;
-        }
+body{
+background:#f8fafc;
+color:#333;
+}
 
-        .card {
-            background: white;
-            padding: 25px;
-            margin-top: 20px;
-            border-radius: 15px;
-            box-shadow: 0px 3px 10px #ddd;
-        }
+/* HEADER */
 
-        .btn {
-            background: #0078d4;
-            padding: 12px 25px;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-        }
+header{
+background:linear-gradient(135deg,#081c3d,#0d47a1);
+color:white;
+padding:30px;
+text-align:center;
+}
 
-        footer {
-            background: #0a2540;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            margin-top: 40px;
-        }
+header h1{
+font-size:55px;
+margin-bottom:10px;
+}
 
-        h2 {
-            color: #0a2540;
-        }
+header p{
+font-size:22px;
+}
 
-        ul li {
-            margin-bottom: 10px;
-        }
-    </style>
+.tagline{
+margin-top:15px;
+font-size:26px;
+font-weight:bold;
+color:#FFD700;
+}
+
+/* NAVIGATION */
+
+nav{
+margin-top:20px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:15px;
+font-size:18px;
+font-weight:bold;
+}
+
+nav a:hover{
+color:#FFD700;
+}
+
+/* SECTIONS */
+
+section{
+max-width:1200px;
+margin:auto;
+padding:40px 20px;
+}
+
+/* CARDS */
+
+.card{
+background:white;
+border-left:6px solid #FFD700;
+padding:25px;
+margin-bottom:25px;
+border-radius:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.1);
+}
+
+.card h2{
+color:#0a2540;
+margin-bottom:15px;
+}
+
+.card p{
+line-height:1.8;
+}
+
+ul{
+padding-left:25px;
+}
+
+li{
+margin-bottom:10px;
+}
+
+/* FOUNDER */
+
+.founder{
+display:flex;
+flex-wrap:wrap;
+align-items:center;
+gap:30px;
+}
+
+.founder img{
+width:220px;
+height:auto;
+border-radius:15px;
+border:4px solid #FFD700;
+}
+
+.founder-content{
+flex:1;
+}
+
+/* BUTTONS */
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+background:#0d47a1;
+color:white;
+text-decoration:none;
+border-radius:8px;
+margin-top:15px;
+font-weight:bold;
+}
+
+.btn:hover{
+background:#FFD700;
+color:black;
+}
+
+/* FOOTER */
+
+footer{
+background:#081c3d;
+color:white;
+text-align:center;
+padding:30px;
+margin-top:40px;
+}
+
+footer h3{
+color:#FFD700;
+}
+
+</style>
+
 </head>
 
 <body>
 
-    <header>
-        <h1>SATLAK SOLUTIONS</h1>
+<header>
 
-        <p>
-            AI • Cybersecurity • Electronics • Emerging Technologies
-        </p>
+<h1>SATLAK SOLUTIONS</h1>
 
-        <h3>
-            Empowering Future Innovators
-        </h3>
-    </header>
+<p>
+AI • Cybersecurity • Electronics • Cloud • Emerging Technologies
+</p>
 
-    <div class="section">
+<div class="tagline">
+Empowering Future Innovators
+</div>
 
-        <div class="card">
-            <h2>About Us</h2>
+<nav>
 
-            <p>
-                Satlak Solutions is dedicated to empowering students through
-                Artificial Intelligence awareness, Cybersecurity training,
-                Electronics mentoring, Career Guidance, Cloud Computing,
-                and Emerging Technology programs.
-            </p>
-        </div>
+#about
+#founder
+#certifications
+#seminarsSeminars</a>
+#verification
+#contactContact</a>
 
-        <div class="card">
-            <h2>Our Programs</h2>
+</nav>
 
-            <ul>
-                <li>Artificial Intelligence Awareness</li>
-                <li>Cybersecurity Fundamentals</li>
-                <li>Electronics Career Guidance</li>
-                <li>Cloud Computing Basics</li>
-                <li>Quantum Technology Awareness</li>
-                <li>Career Development Seminars</li>
-            </ul>
-        </div>
+</header>
 
-        <div class="card">
-            <h2>Founder</h2>
+<section id="about">
 
-            <p><strong>Bonthu Rama Subrahmanyam</strong></p>
+<div class="card">
 
-            <p>
-                Founder & Trainer
-            </p>
-        </div>
+<h2>About Satlak Solutions</h2>
 
-        <div class="card">
-            <h2>Mission</h2>
+<p>
 
-            <p>
-                Don't Chase Trends. Build Skills.
-                Skills Build Careers.
-            </p>
-        </div>
+Satlak Solutions is dedicated to empowering students through Artificial Intelligence awareness,
+Cybersecurity education, Electronics mentoring, Career Guidance, Cloud Computing and Emerging Technology programs.
 
-    </div>
+Our mission is to bridge the gap between academic learning and industry expectations by helping students understand future technologies and career opportunities.
 
-    <footer>
-        © 2026 Satlak Solutions
-    </footer>
+</p>
+
+</div>
+
+</section>
+
+<section id="founder">
+
+<div class="card">
+
+<h2>Founder & Trainer</h2>
+
+<div class="founder">
+
+rama.jpg
+
+<div class="founder-content">
+
+<h3>Bonthu Rama Subrahmanyam</h3>
+
+<br>
+
+<p>
+
+Founder of Satlak Solutions, Cybersecurity Professional, AI Awareness Trainer, Technology Mentor and Career Guidance Speaker.
+
+Passionate about helping students understand AI, Cybersecurity, Electronics and Emerging Technologies.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="certifications">
+
+<div class="card">
+
+<h2>Professional Certifications</h2>
+
+<ul>
+
+<li>Cisco Ethical Hacker</li>
+
+<li>Cisco Introduction to Cybersecurity</li>
+
+<li>Fortinet Certified Associate Cybersecurity</li>
+
+<li>FortiGate 7.6 Operator</li>
+
+<li>ISC2 Candidate</li>
+
+<li>SailPoint Identity Security Leader</li>
+
+<li>AWS IAM Foundations</li>
+
+<li>Oracle Cloud Infrastructure Foundations</li>
+
+<li>Lean Six Sigma AI Yellow Belt</li>
+
+<li>Python Using AI Workshop</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="seminars">
+
+<div class="card">
+
+<h2>Featured Seminar</h2>
+
+<h3>
+Can the Future Exist Without Electronics?
+</h3>
+
+<br>
+
+<p>
+
+AI, Cybersecurity & Career Roadmap for the Next Generation
+
+</p>
+
+<br>
+
+<ul>
+
+<li>Artificial Intelligence Fundamentals</li>
+
+<li>Electronics vs AI Reality</li>
+
+<li>Cybersecurity Career Roadmap</li>
+
+<li>Quantum Technologies</li>
+
+<li>Future Skills & Industry Trends</li>
+
+<li>Career Planning & Professional Growth</li>
+
+</ul>
+
+<br>
+
+#
+
+</div>
+
+</section>
+
+<section id="verification">
+
+<div class="card">
+
+<h2>Certificate Verification</h2>
+
+<p>
+
+Certificate Format:
+
+</p>
+
+<br>
+
+<h3>SSL-AICR-2026-0001</h3>
+
+<br>
+
+<p>
+
+For certificate validation or verification, contact:
+
+</p>
+
+<br>
+
+<p>
+
+📧 satlakrama@gmail.com
+
+</p>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<div class="card">
+
+<h2>Contact Us</h2>
+
+<p>
+
+📧 Email:
+satlakrama@gmail.com
+
+</p>
+
+<br>
+
+<p>
+
+📱 Mobile:
+8179543484
+
+</p>
+
+<br>
+
+<p>
+
+📍 Location:
+Palakollu, Andhra Pradesh, India
+
+</p>
+
+<br>
+
+<p>
+
+LinkedIn:
+(Add your LinkedIn URL)
+
+</p>
+
+<br>
+
+<p>
+
+Credly:
+(Add your Credly URL)
+
+</p>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>SATLAK SOLUTIONS</h3>
+
+<br>
+
+<p>
+
+AI | Cybersecurity | Electronics | Cloud
+
+</p>
+
+<br>
+
+<p>
+
+"AI Needs Electronics. The Future Needs You."
+
+</p>
+
+<br>
+
+<p>
+
+© 2026 Satlak Solutions
+
+</p>
+
+</footer>
 
 </body>
-
 </html>
